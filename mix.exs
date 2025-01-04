@@ -51,7 +51,7 @@ defmodule Playwright.MixProject do
       {:dialyxir, "~> 1.1", only: [:dev, :test], runtime: false},
       {:esbuild, "~> 0.8.1", runtime: Mix.env() == :dev},
       {:ex_doc, "~> 0.34", only: :dev, runtime: false},
-      {:gun, "~> 1.3.3"},
+      {:gun, "~> 2.1"},
       {:jason, "~> 1.4"},
       {:mix_audit, "~> 1.0", only: [:dev, :test], runtime: false},
       {:playwright_assets, "1.49.1", only: [:test]},
